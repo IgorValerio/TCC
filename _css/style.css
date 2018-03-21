@@ -1,0 +1,246 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@font-face {
+	font-family: 'FonteLogo';
+	src: url("../_fonts/bubblegum-sans-regular.otf");
+}	
+
+body {
+    	background-color: #60606060;
+    	color: rgba(0,0,0,1);
+    	font-family: Arial, sans-serif;
+}
+
+a {
+	color: #606060;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+div#interface {
+	width: 900px;
+	background-color: #ffffff;
+	margin: -5px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0,.5);
+	padding: 10px;
+}
+
+p {
+    	text-align: justify;
+		text-indent: 50px;
+	}
+
+
+header#cabecalho h1 {
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 50pt;
+	color: #606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	padding: 0px;
+	margin-bottom: 0px;
+	position: relative;
+	top: -15px;
+	left: 100px;
+	padding-top: -40px; 
+	text-align: center;
+}
+
+header#cabecalho h2 {
+	font-family: 'Titillium Web', sans-serif;
+	color: #888888;
+	font-size: 15pt;
+	margin-bottom: 0px;
+	top: -45px;
+	position: relative;
+	text-align: center;
+}
+
+/* Formatação do Menu */
+
+nav#menu ul {
+	display: block;
+	
+}
+
+nav#menu ul { 
+	list-style: none;
+	text-transform: uppercase;
+	position: relative;
+	top: -58px;
+	left: 250px;
+	
+}
+
+nav#menu li {
+	background-color: #60606060;
+	display: inline-block;
+	font-color: #888888;
+	padding: 10px;
+	margin: 2px;
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	transition: background-color 1s;
+
+}
+
+nav#menu li:hover {
+	background-color: #5DBCD2;
+}
+
+nav#menu h1 {
+	display: none;
+}
+
+nav#menu a {
+	color: #000000;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: #ffffff;
+}
+
+/* Formatação de imagens */
+
+img#slideImagem {
+	width: 100%;
+	height: 100%;
+	border: 5px;
+	padding: 5px;
+}
+
+figure.foto-legenda {
+	
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+	width: 23%;
+	margin-top: -150px;
+	margin-left: 15px;
+	
+}
+
+figure.foto-legenda:hover figcaption {
+	opacity: 1;
+}
+
+fieldset {
+	border-color: #cecece;
+	margin: 20px;
+	position: relative;
+	top: -50px;
+	padding: 0px;
+	left: -20px;
+	height: 330px;
+	width: 400px;
+}
+
+section#corpo {
+	display: block;
+	width: 900px;
+}
+
+section#corpo h4 {
+	text-align: justify;
+	margin-left: 20px;
+	margin-top: 80px;
+}
+
+legend {
+	font-family: 'FonteLogo', 'sans-serif';
+	font-size: 20pt;
+	color: #606060;
+}
+
+section#corpo h3 {
+	color: #ffffff;
+	padding: 6px;
+	background-color: #5DBCD2;
+	font-size: 13pt;
+	margin-right: 550px;
+	position: relative;
+	top: -10px;
+	left: 10px;
+}
+
+/*Formatação de slides */
+.slide {
+	min-height: 350px;
+	position: relative;
+	left: 390px;
+	top: -200px;
+}
+
+.slideImagem {
+	position: absolute;
+	opacity: 0;
+	animation: animaSlide 15s infinite;
+	-webkit-animation: animaSlide 15s infinite;
+}
+
+@keyframes animaSlide {
+	25% {
+		opacity: 1
+	}
+	75% {
+		opacity: 0
+	}
+}
+
+-webkit-keyframes animaSlide {
+	25% {
+		opacity: 1
+	}
+	75% {
+		opacity: 0
+	}
+}
+
+.slideImagem:nth-child(0){
+	animation-delay: 0s
+}
+
+.slideImagem:nth-child(1){
+	animation-delay: 5s
+}
+
+header#cabecalho-artigo h1 {
+	font-family: 'FonteLogo', 'sans-serif';
+	font-size: 20pt;
+	color: #606060;
+	position: absolute;
+	left: 670px;
+	top: 59px;
+}
+
+header#cabecalho-artigo h2 {
+	font-size: 12pt;
+	color: #606060;
+	padding: 5px 0px 5px 0px;
+	margin: 10px;
+	position: relative;
+	left: 80px;
+	top: -200px;
+
+}
+
+header#cabecalho-artigo h3 {
+	font-size: 12pt;
+	color: #606060;
+	position: absolute;
+	top: 105px;
+}
+
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #606060;
+	
+}
+
+footer#rodape p {
+	text-align: center;
+}
