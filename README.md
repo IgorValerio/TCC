@@ -1,4 +1,4 @@
 # TCC
-Stock control system + site for Smartphone store.
+Mini ERP de organização pessoal com ênfase em produtividade
 
--> Como o pŕoprio nome diz este sera um trabalho de concluso de curso em Sistemas de Informaço sobre um controle de estoque de produtos interconectado com um site de vendas de smartphones escrito em php,html5,css3 e JS.
+-> Como o pŕoprio nome diz este sera um trabalho de concluso de curso em Sistemas de Informaço sobre um Mini ERP de organização pessoal em php,html5,css3 e JS.
